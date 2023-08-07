@@ -497,8 +497,8 @@ p .koar {
 
 #maps {
   border-radius: 4px;
-  padding: 22px;
-  margin-left: 1px;
+  padding: 17px;
+  margin-left: 5px;
   margin-top: 72px;
 }
 
@@ -512,11 +512,11 @@ p .koar {
 
 .mapsBody {
   margin-top: -12px;
-  padding: 260px 50px;
+  padding: 280px 50px;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   /* background-color: #e0e0e0; */
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
 /* .coverMage {
@@ -694,7 +694,7 @@ input[type="text"],
 input[type="email"],
 textarea {
   font-family: "Poppins", sans-serif;
-  width: 77%;
+  width: 79%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -801,6 +801,9 @@ textarea {
 }
 /* End Navbar */
 
+@media screen and (max-width: 360px) {
+}
+
 @media screen and (max-width: 480px) {
   /* Carousel */
   /* .carousel img {
@@ -817,12 +820,12 @@ textarea {
   /* ARTICLE */
   #article img {
     margin-top: -90px;
-    margin-left: 18px;
-    width: 77%;
+    margin-left: 68px;
+    width: 65%;
   }
 
   .content h1 {
-    margin-top: 180px;
+    margin-top: 246px;
     margin-left: -313px;
     text-align: justify;
     font-size: 20px;
@@ -836,13 +839,13 @@ textarea {
   .cardPray {
     margin-top: -48px;
     margin-left: -116px;
-    width: 143%;
+    width: 129%;
   }
 
   .cardBody {
     padding-top: 12px;
     margin-top: 19px;
-    margin-left: -92px;
+    margin-left: -100px;
     /* width: 2s7%; */
     /* overflow: hidden; */
   }
@@ -865,13 +868,13 @@ textarea {
       rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     /* background-color: #e0e0e0; */
     border-radius: 4px;
-    min-width: 159%;
+    min-width: 137%;
     margin-left: -113px;
   }
 
   .newsletter img {
     /* background-color: black; */
-    width: 130%;
+    width: 120%;
     height: 280px;
     margin-top: -33px;
     margin-left: -35px;
@@ -899,8 +902,8 @@ textarea {
 
   /* Form Pengaduan / MAPS */
   .googleMaps {
-    width: 316%;
-    min-height: 120%;
+    width: 438%;
+    min-height: 140%;
     margin-left: -22px;
     margin-top: -85px;
   }
@@ -933,7 +936,7 @@ textarea {
   }
   .coverMage img {
     margin-top: -233px;
-    margin-left: 8px;
-    min-width: 95%;
+    margin-left: 56px;
+    min-width: 74%;
   }
 }
