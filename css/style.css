@@ -973,13 +973,13 @@ textarea {
   .cardPray {
     margin-top: -48px;
     margin-left: -116px;
-    width: 128%;
+    width: 150%;
   }
 
   .cardBody {
     padding-top: 12px;
     margin-top: 19px;
-    margin-left: -92px;
+    margin-left: -95px;
     /* width: 2s7%; */
     /* overflow: hidden; */
   }
