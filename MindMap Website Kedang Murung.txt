@@ -1,0 +1,87 @@
+<> MindMap Database <>
+Title
+Gambar
+Tangg   al
+Upload (admin only)
+Deskripsi	
+
+
+Noted :
+⭐ 23 Juli 2023 pembuatan database untuk mempermudah pengisian dan penyimpanan data :
+⭐ 24 Juli 2023 :
+- Histori Desa Kedang Murung
+- Histori Wisata Tanjung Sarai
+- Logo Tanjung Sarai
+- Buatkan Desa Sosmed (Instagram, Youtube, Facebook)
+
+
+Waiting List Progress :
+- menambahkan berita baru (Pawai obor Muharam,Lomba 17 Agustus)
+- membuatkan Database untuk berita terbaru 
+- memasukan sosmed ke bagian footer 
+- Populasi Gender berdasarkan tahun 2023 
+    - Laki-Laki 1351 
+    - Perempuan 1289
+
+
+list
+- navbar 
+- carousel
+- main section (logo, history village, female,male population, goverment)
+- card pray 
+- newsletter
+- map scale Kota Bangun ( Kedang Murung)
+- location and form chat to spreadsheet
+- footer section
+
+24 Juli 2023 masukan dari perangkat Desa (Mirwan)
+
+*gambar*
+
+Carousel 
+- Tanjung Sarai
+- Aula Nirwana
+- Gapura
+- Masjid Istiqomah
+- Kantor Desa (BPD)
+
+Next section
+- Struktur Desa (perangkat Desa)
+- Histori Desa
+- Histori Desa  
+
+
+25 Juli 2023 (Newsletter) 
+🏠 Jumat Bersih Setiap Jumat
+🏠 Posyandu/Posbindu lansia
+🏠 Satu Muharram
+🏠 Jambore
+
+
+New Deployment
+- KedangMurung Contact Form
+Deployment ID : AKfycbzV95Gx_qFl9JQBkshmghXIEtSTwcISdF5awv5GB4Nph-4dEPly2wTZfO3ztDVLijep
+URL : https://script.google.com/macros/s/AKfycbzV95Gx_qFl9JQBkshmghXIEtSTwcISdF5awv5GB4Nph-4dEPly2wTZfO3ztDVLijep/exec
+
+
+
+25 Juli 2023 (work done)
+- Send data form to spreadsheet
+- new headline one muharram
+
+==> Waiting List Hari ini 26 Juni 2023 <==
+⭐ menannyakan asal muasal Desa Kedang Murung
+⭐ menannyakan asal muasal Wisata Tanjung Sarai
+
+
+
+6 Agustus 2023 {
+    responsive mobile on Progress
+    carousel solve (?)
+    footer section (?)
+}
+
+Tips Noted :
+- css Grid 
+- css Grid 
+ 

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/6acc3fbd7c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Chart JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+    <title>Kedang Murung</title>
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/7/7d/Lambang_Kab._Kutai_Kertanegara.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body onload="startTime()">
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="#home" class="tengah"> Beranda</a>
+        </li>
+        <li><a href="#article" class="tengah"> Sejarah</a></li>
+        <li><a href="#tagline" class="tengah">Berita</a></li>
+        <li><a href="#maps" class="tengah">Map</a></li>
+        <li style="float: right"><a href="#footer">Kontak</a></li>
+        <li style="float: right"><a href="#about">Wisata</a></li>
+      </ul>
+    </nav>
+    <div class="carousel">
+      <div class="carousel_inner">
+        <div class="carousel_item carousel_item__active">
+          <img src="./img/sarai.jpg" alt="" class="carousel_img" />
+          <div class="carousel_caption">
+            <!-- <h1 class="carousel_title">WISATA TANJUNG SARAI</h1>
+            <p class="carousel_description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
+              reprehenderit repudiandae modi assumenda, totam repellat, ut eius
+              illo veritatis facilis, vitae unde! Quae sit placeat esse eligendi
+              blanditiis odit illo veniam ab error est quam, iure, hic in
+              distinctio repudiandae excepturi voluptatum? Voluptatem quidem
+              enim rerum minima reiciendis culpa incidunt?
+            </p> -->
+          </div>
+        </div>
+        <div class="carousel_item">
+          <div class="carousel_caption">
+            <!-- <h1 class="carousel_title">KERUPUK TRADISIONAL</h1>
+            <p class="carousel_description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
+              reprehenderit repudiandae modi assumenda, totam repellat, ut eius
+              illo veritatis facilis, vitae unde! Quae sit placeat esse eligendi
+              blanditiis odit illo veniam ab error est quam, iure, hic in
+              distinctio repudiandae excepturi voluptatum? Voluptatem quidem
+              enim rerum minima reiciendis culpa incidunt?
+            </p> -->
+          </div>
+          <img src="./img/sarai.jpg" alt="" class="carousel_img" />
+        </div>
+        <div class="carousel_item">
+          <img src="./img/sarai.jpg" alt="" class="carousel_img" />
+        </div>
+        <div class="carousel_item">
+          <img src="./img/sarai.jpg" alt="" class="carousel_img" />
+        </div>
+      </div>
+      <div class="carousel_indicator">
+        <button class="carousel_dot carousel_dot__active"></button>
+        <button class="carousel_dot"></button>
+        <button class="carousel_dot"></button>
+        <button class="carousel_dot"></button>
+      </div>
+
+      <div class="carousel_control">
+        <button class="carousel_button carousel_button__prev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="carousel_button carousel_button__next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Serba Serbi -->
+    <section id="article">
+      <div class="content">
+        <img src="img/logo.png" alt="" />
+        <h1><i class="fa-solid fa-seedling"></i> Serba Serbi Kedang Murung</h1>
+        <p>
+          Sejak berdirinya Desa Kedang Murung ada 4 (empat) kepala Desa yang
+          mempimpin Desa, mulai <br />
+          dari nama H.Hairuddin dan sesuai regulasi terbaru di wilayah Kabupaten
+          Kedang Murung dengan sebutan Kepala Desa. <br />
+          Berikut nama-nama Kepala Desa Kedang Murung Kecamatan Kota Bangun
+          Kabupaten Kutai Kartanegara
+          <a href="pages/cobaan.html"
+            ><span class="lanjutan">Selengkapnya...</span></a
+          >
+        </p>
+      </div>
+      <table id="datas">
+        <tr>
+          <th colspan="3" class="tengah">
+            <i class="fa-solid fa-file-csv"></i> DAFTAR KEPALA DESA
+          </th>
+        </tr>
+        <tr>
+          <th>NO</th>
+          <th>NAMA</th>
+          <th>TAHUN</th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>H.HAIRUDDIN</td>
+          <td>2010/2016</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>HARTONI</td>
+          <td>2004/2018</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>JUNAIDY</td>
+          <td>2016/2022</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>JUNAIDY</td>
+          <td>2022/2028</td>
+        </tr>
+      </table>
+      <canvas id="myChart" style="width: 100%; max-width: 600px"></canvas>
+    </section>
+    <!-- Serba Serbi -->
+
+    <!-- Card Page -->
+    <section class="card">
+      <div class="cardPray">
+        <p>
+          <i class="fa-solid fa-calendar-days"></i> Jadwal Sholat di Kab. Kutai
+          Kartanegara
+        </p>
+        <i class="fa-regular fa-clock"><p id="clock"></p></i>
+      </div>
+      <div class="cardBody">
+        <img src="img/masjid.webp" alt="masjid" />
+        <h4>Imsak</h4>
+        <p>04:43</p>
+      </div>
+      <div class="cardBody">
+        <img src="img/masjid.webp" alt="masjid" />
+        <h4>Subuh</h4>
+        <p>04:53</p>
+      </div>
+      <div class="cardBody">
+        <img src="img/masjid.webp" alt="masjid" />
+        <h4>Zuhur</h4>
+        <p>12:21</p>
+      </div>
+      <div class="cardBody">
+        <img src="img/masjid.webp" alt="masjid" />
+        <h4>Ashar</h4>
+        <p>15:45</p>
+      </div>
+      <div class="cardBody">
+        <img src="img/masjid.webp" alt="masjid" />
+        <h4>Maghrib</h4>
+        <p>18:23</p>
+      </div>
+      <div class="cardBody">
+        <img src="img/masjid.webp" alt="masjid" />
+        <h4>Isya</h4>
+        <p>19:37</p>
+      </div>
+    </section>
+    <!-- Card Page -->
+
+    <!-- Rt Section -->
+    <div class="scroll-container">
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+      <div class="scroll-area"></div>
+    </div>
+    <!-- End Section -->
+
+    <!-- NewsPapper -->
+    <div id="tagline">
+      <h1><i class="fa-solid fa-file-lines"></i> Berita Desa</h1>
+    </div>
+
+    <!-- Batasan -->
+    <section id="news">
+      <div class="newsletter">
+        <a target="_blank" href="img/satu-muharram.jpg">
+          <img src="img/satu-muharram.jpg" alt="dokumentasi" />
+        </a>
+        <a href="pages/cobaan.html"><h1>Gebyar Muharram 1445 H</h1></a>
+        <div class="info">
+          <p><i class="koar fa-regular fa-calendar-plus"></i> 12-12-2012</p>
+          <p class="kontolS"><i class="koar fa-solid fa-user"></i> Admin</p>
+        </div>
+        <p>
+          Momen mengharukan disaat KKN UNMUL dan UINSI bekerja sama dan di
+          dukung oleh masyarakat dalam menyukseskan acara Gebyar Muharram 1445 H
+          yang diadakan di Desa Kedang Murung. Momen di foto ini sekaligus
+          menandakan berakhirnya acara Gebyar Muharram 1445 H yang di tandai
+          dengan penyerahan Trophy sekaligus piagam kepada setiap pemenang dari
+          masing-masing RT.
+          <a href="pages/cobaan.html"
+            ><span class="lanjutan">Selengkapnya...</span></a
+          >
+        </p>
+        <!-- <a href="pages/cobaan.html"
+          ><button class="seeNews">
+            <i class="fa-regular fa-eye"></i> Lihat
+          </button>
+        </a> -->
+      </div>
+    </section>
+    <!-- NewsPapper -->
+
+    <!-- Maping -->
+    <div id="maps">
+      <div class="mapsBody">
+        <h1>
+          <i class="fa-solid fa-map-location-dot"></i> Peta Administrasi Kedang
+          Murung
+        </h1>
+        <p>
+          Secara cluster Badan Pusat Statistik Kab.Kutai Kartanegara, Desa
+          Kedang Murung termasuk dalam Cluster Perdesaan, letak Desa Kedang
+          Murung sangat strategis, termasuk salah satu wilayah yang berada dalam
+          pemerintahan Kecamatan Kota Bangun. Letak Desa Kedang Murung yang
+          berdekatan Dengan Pemerintah Kabupaten Kutai Kartanegara tepatnya ±
+          100 Km arah timur Kabupaten Kutai Kartanegara. Desa Kedang Murungs
+          secara administrasi terbagi menjadi 3 (Tiga) Dusun yakni: Dusun
+          Matahari, Dusun Teratai, Dusun Seroja, dengan batas sebagai sebagai
+          berikut: Sebelah Utara berbatasan dengan Desa Kota Bangun Ulu, Desa
+          Loleng, Sebelah Timur berbatasan dengan Desa Sumber Sari, Suka Bumi,
+          Desa Sedulang, Sebelah Selatan Desa Kota Bangun 1, Desa Wonosari,
+          Kedang Ipil Sebelah Barat Desa Muara Wis, Sungai Mahakam Secara
+          keseluruhan luas desa Kedang Murung adalah ± 10.198.93 Ha
+        </p>
+      </div>
+      <div class="coverMage">
+        <a target="_blank" href="img/petaKDM.jpg">
+          <img src="img/petaKDM.jpg" alt="" class="maps" />
+        </a>
+      </div>
+    </div>
+    <!-- Maping -->
+
+    <!-- Form Chat -->
+
+    <section class="form">
+      <div class="gmaps">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127673.27672781439!2d116.51317745651028!3d-0.21626847682089523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df648132b6cca35%3A0x15909fb1ce72fc6f!2sKantor%20Kepala%20Desa%20Kedang%20Murung!5e0!3m2!1sid!2sid!4v1689781859241!5m2!1sid!2sid"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <form class="wrapCover" name="KDM-contact" autocomplete="off">
+        <h1>Form Pengaduan</h1>
+        <input type="text" placeholder="Nama" required name="nama" />
+        <input type="email" placeholder="Email" required name="email" />
+        <input type="text" value="+62" required name="nomor" />
+        <textarea
+          name="pesan"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Pesan"
+          required
+        ></textarea
+        ><br />
+        <button class="sending" type="submit">
+          <b><i class="fa-regular fa-paper-plane fa-fade"></i> kirim</b>
+        </button>
+      </form>
+    </section>
+    <!-- End Form Chat -->
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="wrap">
+        <h1><i class="fa-solid fa-house-chimney"></i> Desa Kedang Murung</h1>
+        <h1><i class="fa-regular fa-comments"></i> Hubungi Kami</h1>
+        x
+      </div>
+      <div class="konten">
+        <h4>
+          Website Resmi Pemerintah Kelurahan Muara Jawa Tengah, Kecamatan Muara
+          Jawa, Kabupaten Kutai Kartanegara
+        </h4>
+        <h4>
+          Jl.Danau Kedang Murung Kabupaten Kutai Kartanegara, Provinsi
+          Kalimantan Timur, Indonesia, 75561 .
+        </h4>
+      </div>
+      <div class="konten">
+        <h4>
+          Website Resmi Pemerintah Kelurahan Muara Jawa Tengah, Kecamatan Muara
+          Jawa, Kabupaten Kutai Kartanegara
+        </h4>
+        <h4>
+          Jl.Danau Kedang Murung Kabupaten Kutai Kartanegara, Provinsi
+          Kalimantan Timur, Indonesia, 75561 .
+        </h4>
+      </div>
+      <div class="konten">
+        <div class="sosmed">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="konten">
+        <div class="contact">
+          <a href=""
+            ><i class="fa-solid fa-phone"></i> Telepon/Fax: 082191960001</a
+          >
+          <a href="mailto:desakedangmurung@gmail.com">
+            <i class="fa-regular fa-envelope"></i> Email:
+            desakedangmurung@gmail.com</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Link Java Script -->
+    <script src="js/script.js"></script>
+    <script src="js/accordion.js"></script>
+    <script src="js/times.js"></script>
+    <script src="js/chart.js"></script>
+    <!-- Contact Form -->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzV95Gx_qFl9JQBkshmghXIEtSTwcISdF5awv5GB4Nph-4dEPly2wTZfO3ztDVLijep/exec";
+      const form = document.forms["KDM-contact"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => console.log("Success!", response))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <!-- Contact Form -->
+    <!-- Link Java Script -->
+  </body>
+</html>
