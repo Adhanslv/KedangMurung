@@ -835,14 +835,14 @@ textarea {
   /* CARD SECTION */
   .cardPray {
     margin-top: -48px;
-    margin-left: -114px;
-    width: 137%;
+    margin-left: -116px;
+    width: 143%;
   }
 
   .cardBody {
     padding-top: 12px;
     margin-top: 19px;
-    margin-left: -82px;
+    margin-left: -92px;
     /* width: 2s7%; */
     /* overflow: hidden; */
   }
@@ -865,7 +865,7 @@ textarea {
       rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     /* background-color: #e0e0e0; */
     border-radius: 4px;
-    min-width: 150%;
+    min-width: 159%;
     margin-left: -113px;
   }
 
@@ -874,7 +874,7 @@ textarea {
     width: 130%;
     height: 280px;
     margin-top: -33px;
-    margin-left: -38px;
+    margin-left: -35px;
   }
 
   .newsletter h1 {
@@ -899,7 +899,7 @@ textarea {
 
   /* Form Pengaduan / MAPS */
   .googleMaps {
-    width: 346%;
+    width: 316%;
     min-height: 120%;
     margin-left: -22px;
     margin-top: -85px;
