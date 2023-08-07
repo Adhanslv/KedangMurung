@@ -973,7 +973,7 @@ textarea {
   .cardPray {
     margin-top: -48px;
     margin-left: -116px;
-    width: 137%;
+    width: 123%;
   }
 
   .cardBody {
@@ -1002,14 +1002,14 @@ textarea {
       rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     /* background-color: #e0e0e0; */
     border-radius: 4px;
-    min-width: 148%;
+    min-width: 128%;
     margin-left: -113px;
   }
 
   .newsletter img {
     /* background-color: black; */
-    width: 133%;
-    height: 280px;
+    width: 140%;
+    height: 270px;
     margin-top: -33px;
     margin-left: -33px;
   }
@@ -1036,7 +1036,7 @@ textarea {
 
   /* Form Pengaduan / MAPS */
   .googleMaps {
-    width: 343%;
+    width: 353%;
     min-height: 140%;
     margin-left: -22px;
     margin-top: -25px;
