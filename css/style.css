@@ -962,7 +962,7 @@ textarea {
     margin-top: 246px;
     margin-left: -313px;
     text-align: justify;
-    font-size: 80px;
+    font-size: 18px;
   }
   .content p {
     float: justify;
@@ -973,13 +973,13 @@ textarea {
   .cardPray {
     margin-top: -48px;
     margin-left: -116px;
-    width: 13%;
+    width: 143%;
   }
 
   .cardBody {
     padding-top: 12px;
     margin-top: 19px;
-    margin-left: -88px;
+    margin-left: -90px;
     /* width: 2s7%; */
     /* overflow: hidden; */
   }
@@ -1002,7 +1002,7 @@ textarea {
       rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     /* background-color: #e0e0e0; */
     border-radius: 4px;
-    min-width: 155%;
+    min-width: 135%;
     margin-left: -113px;
   }
 
@@ -1011,11 +1011,11 @@ textarea {
     width: 133%;
     height: 270px;
     margin-top: -33px;
-    margin-left: -36px;
+    margin-left: -30px;
   }
 
   .newsletter h1 {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .newsletter p {
