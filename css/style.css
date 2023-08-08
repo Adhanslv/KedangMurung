@@ -979,7 +979,7 @@ textarea {
   .cardBody {
     padding-top: 12px;
     margin-top: 19px;
-    margin-left: -90px;
+    margin-left: -84px;
     /* width: 2s7%; */
     /* overflow: hidden; */
   }
@@ -1002,7 +1002,7 @@ textarea {
       rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     /* background-color: #e0e0e0; */
     border-radius: 4px;
-    min-width: 135%;
+    min-width: 145%;
     margin-left: -113px;
   }
 
@@ -1011,7 +1011,7 @@ textarea {
     width: 133%;
     height: 270px;
     margin-top: -33px;
-    margin-left: -30px;
+    margin-left: -33px;
   }
 
   .newsletter h1 {
