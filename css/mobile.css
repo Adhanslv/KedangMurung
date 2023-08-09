@@ -1,0 +1,273 @@
+@media (max-width: 320px) {
+  * Carousel *
+    /* .carousel img {
+      height: 320px;
+      width: 439px;
+      min-height: 520%;
+    }
+  
+    .carousel_inner {
+      width: 200%;
+      overflow: hidden;
+    } */
+  
+    /* ARTICLE */
+    #article img {
+    margin-top: -86px;
+    margin-left: 18px;
+    width: 85%;
+  }
+
+  .content h1 {
+    margin-top: 126px;
+    margin-left: -313px;
+    text-align: justify;
+    font-size: 16px;
+  }
+  .content p {
+    float: justify;
+    margin-left: -313px;
+    margin-top: 10px;
+  }
+  /* CARD SECTION */
+  .cardPray {
+    margin-top: -48px;
+    margin-left: -116px;
+    width: 142%;
+  }
+
+  .cardBody {
+    padding-top: 12px;
+    margin-top: 19px;
+    margin-left: -89px;
+    /* width: 72%; */
+    /* overflow: hidden; */
+  }
+
+  .card {
+    grid-column-gap: 121px;
+    grid-row-gap: 3px;
+  }
+
+  /* Newsletter */
+  #tagline {
+    font-size: 11px;
+    margin-left: -12px;
+  }
+
+  .newsletter {
+    margin-top: -60px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* background-color: #e0e0e0; */
+    border-radius: 4px;
+    min-width: 150%;
+    margin-left: -113px;
+  }
+
+  .newsletter img {
+    /* background-color: black; */
+    width: 138%;
+    height: 260px;
+    margin-top: -39px;
+    margin-left: -40px;
+  }
+
+  .newsletter h1 {
+    font-size: 14px;
+  }
+
+  .newsletter p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+  }
+
+  /* Maps */
+  .mapsBody h1 {
+    font-size: 18px;
+  }
+
+  .mapsBody p {
+    min-width: 12px;
+  }
+
+  /* Form Pengaduan / MAPS */
+  .googleMaps {
+    width: 318%;
+    min-height: 140%;
+    margin-left: -22px;
+    margin-top: -25px;
+  }
+
+  .wrapCover {
+    margin-top: -44px;
+    min-width: 115%;
+    margin-left: 22px;
+  }
+  .wrapCover h1 {
+    font-size: 22px;
+  }
+
+  /* MapsBody */
+  .mapsBody h1 {
+    margin-left: -22px;
+  }
+
+  .mapsBody p {
+    margin-left: -22px;
+    text-align: justify;
+  }
+
+  #maps {
+    margin-top: 48px;
+  }
+
+  .mapsBody p {
+    text-align: left;
+  }
+  .coverMage img {
+    margin-top: -233px;
+    margin-left: 56px;
+    min-width: 74%;
+  }
+}
+
+@media (max-width: 480px) {
+  * Carousel *
+    /* .carousel img {
+      height: 320px;
+      width: 439px;
+      min-height: 520%;
+    }
+  
+    .carousel_inner {
+      width: 200%;
+      overflow: hidden;
+    } */
+  
+    /* ARTICLE */
+    #article img {
+    margin-top: -86px;
+    margin-left: 18px;
+    width: 85%;
+  }
+
+  .content h1 {
+    margin-top: 126px;
+    margin-left: -313px;
+    text-align: justify;
+    font-size: 16px;
+  }
+  .content p {
+    float: justify;
+    margin-left: -313px;
+    margin-top: 10px;
+  }
+  /* CARD SECTION */
+  .cardPray {
+    margin-top: -48px;
+    margin-left: -116px;
+    width: 142%;
+  }
+
+  .cardBody {
+    padding-top: 12px;
+    margin-top: 19px;
+    margin-left: -89px;
+    /* width: 72%; */
+    /* overflow: hidden; */
+  }
+
+  .card {
+    grid-column-gap: 121px;
+    grid-row-gap: 3px;
+  }
+
+  /* Newsletter */
+  #tagline {
+    font-size: 11px;
+    margin-left: -12px;
+  }
+
+  .newsletter {
+    margin-top: -60px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* background-color: #e0e0e0; */
+    border-radius: 4px;
+    min-width: 150%;
+    margin-left: -113px;
+  }
+
+  .newsletter img {
+    /* background-color: black; */
+    width: 138%;
+    height: 260px;
+    margin-top: -39px;
+    margin-left: -40px;
+  }
+
+  .newsletter h1 {
+    font-size: 14px;
+  }
+
+  .newsletter p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+  }
+
+  /* Maps */
+  .mapsBody h1 {
+    font-size: 18px;
+  }
+
+  .mapsBody p {
+    min-width: 12px;
+  }
+
+  /* Form Pengaduan / MAPS */
+  .googleMaps {
+    width: 318%;
+    min-height: 140%;
+    margin-left: -22px;
+    margin-top: -25px;
+  }
+
+  .wrapCover {
+    margin-top: -44px;
+    min-width: 115%;
+    margin-left: 22px;
+  }
+  .wrapCover h1 {
+    font-size: 22px;
+  }
+
+  /* MapsBody */
+  .mapsBody h1 {
+    margin-left: -22px;
+  }
+
+  .mapsBody p {
+    margin-left: -22px;
+    text-align: justify;
+  }
+
+  #maps {
+    margin-top: 48px;
+  }
+
+  .mapsBody p {
+    text-align: left;
+  }
+  .coverMage img {
+    margin-top: -233px;
+    margin-left: 56px;
+    min-width: 74%;
+  }
+}

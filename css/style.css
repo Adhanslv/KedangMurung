@@ -324,7 +324,6 @@ li a:hover:not(.active) {
   margin-top: -90px;
   float: left;
   width: 183px;
-  /* transform: rotate(-10deg); */
   border-radius: 10px;
 }
 
@@ -694,7 +693,7 @@ input[type="text"],
 input[type="email"],
 textarea {
   font-family: "Poppins", sans-serif;
-  width: 77%;
+  width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -713,23 +712,6 @@ textarea {
   border: none;
   margin: 8px 0;
 }
-
-/* @media (max-width: 767px) {
-  .konten {
-    width: 50%;
-    margin-bottom: 30px;
-  }
-}
-@media (max-width: 574px) {
-  .konten {
-    width: 100%;
-  }
-} */
-/* 
-.pages {
-  scroll-snap-type: x mandatory;
-  scroll-padding: 50%;
-} */
 
 .child {
   margin-top: 80px;
@@ -767,7 +749,7 @@ textarea {
 
 /* Navbar */
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   #topNav li:not(:first-child) {
     display: none;
   }
@@ -780,7 +762,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   #topNav.responsive {
     position: relative;
   }
@@ -800,31 +782,24 @@ textarea {
     display: block;
   }
 }
-/* End Navbar */
 
-/* 480 BREAKPOINT */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media (max-width: 480px) {
   /* Carousel */
-  /* .carousel img {
-    height: 320px;
-    width: 439px;
-    min-height: 520%;
+  .carousel img {
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
-  .carousel_inner {
-    width: 200%;
-    overflow: hidden;
-  } */
-
-  /* ARTICLE */
   #article img {
-    margin-top: -86px;
-    margin-left: 18px;
-    width: 85%;
+    margin-top: -89px;
+    margin-left: 82px;
+    width: 55%;
   }
 
   .content h1 {
-    margin-top: 126px;
+    margin-top: 162px;
     margin-left: -313px;
     text-align: justify;
     font-size: 16px;
@@ -838,15 +813,13 @@ textarea {
   .cardPray {
     margin-top: -48px;
     margin-left: -116px;
-    width: 142%;
+    width: 128%;
   }
 
   .cardBody {
     padding-top: 12px;
     margin-top: 19px;
-    margin-left: -89px;
-    /* width: 72%; */
-    /* overflow: hidden; */
+    margin-left: -96px;
   }
 
   .card {
@@ -867,16 +840,15 @@ textarea {
       rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     /* background-color: #e0e0e0; */
     border-radius: 4px;
-    min-width: 150%;
+    min-width: 135%;
     margin-left: -113px;
   }
 
   .newsletter img {
-    /* background-color: black; */
-    width: 138%;
+    width: 119%;
     height: 260px;
-    margin-top: -39px;
-    margin-left: -40px;
+    margin-top: -33px;
+    margin-left: -32px;
   }
 
   .newsletter h1 {
@@ -901,10 +873,10 @@ textarea {
 
   /* Form Pengaduan / MAPS */
   .googleMaps {
-    width: 318%;
+    width: 441%;
     min-height: 140%;
     margin-left: -22px;
-    margin-top: -25px;
+    margin-top: -63px;
   }
 
   .wrapCover {
@@ -934,8 +906,8 @@ textarea {
     text-align: left;
   }
   .coverMage img {
-    margin-top: -233px;
-    margin-left: 56px;
-    min-width: 74%;
+    margin-top: -266px;
+    margin-left: 34px;
+    min-width: 86%;
   }
 }
