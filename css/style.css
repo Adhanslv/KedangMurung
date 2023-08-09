@@ -766,6 +766,7 @@ textarea {
 /* Responsive */
 
 /* Navbar */
+
 @media screen and (max-width: 600px) {
   #topNav li:not(:first-child) {
     display: none;
@@ -801,143 +802,7 @@ textarea {
 }
 /* End Navbar */
 
-@media screen and (max-width: 360px) {
-  /* Carousel */
-  /* .carousel img {
-    height: 320px;
-    width: 439px;
-    min-height: 520%;
-  }
-
-  .carousel_inner {
-    width: 200%;
-    overflow: hidden;
-  } */
-
-  /* ARTICLE */
-  #article img {
-    margin-top: -90px;
-    margin-left: 68px;
-    width: 65%;
-  }
-
-  .content h1 {
-    margin-top: 246px;
-    margin-left: -313px;
-    text-align: justify;
-    font-size: 20px;
-  }
-  .content p {
-    float: justify;
-    margin-left: -313px;
-    margin-top: 10px;
-  }
-  /* CARD SECTION */
-  .cardPray {
-    margin-top: -48px;
-    margin-left: -166px;
-    width: 143%;
-  }
-
-  .cardBody {
-    padding-top: 12px;
-    margin-top: 19px;
-    margin-left: -100px;
-    /* width: 2s7%; */
-    /* overflow: hidden; */
-  }
-
-  .card {
-    grid-column-gap: 121px;
-    grid-row-gap: 3px;
-  }
-
-  /* Newsletter */
-  #tagline {
-    font-size: 11px;
-    margin-left: -12px;
-  }
-
-  .newsletter {
-    margin-top: -60px;
-    padding: 50px;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    /* background-color: #e0e0e0; */
-    border-radius: 4px;
-    min-width: 157%;
-    margin-left: -113px;
-  }
-
-  .newsletter img {
-    /* background-color: black; */
-    width: 120%;
-    height: 280px;
-    margin-top: -33px;
-    margin-left: -35px;
-  }
-
-  .newsletter h1 {
-    font-size: 19px;
-  }
-
-  .newsletter p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 13px;
-  }
-
-  /* Maps */
-  .mapsBody h1 {
-    font-size: 18px;
-  }
-
-  .mapsBody p {
-    min-width: 12px;
-  }
-
-  /* Form Pengaduan / MAPS */
-  .googleMaps {
-    width: 438%;
-    min-height: 140%;
-    margin-left: -22px;
-    margin-top: -85px;
-  }
-
-  .wrapCover {
-    margin-top: -44px;
-    min-width: 115%;
-    margin-left: 22px;
-  }
-  .wrapCover h1 {
-    font-size: 22px;
-  }
-
-  /* MapsBody */
-  .mapsBody h1 {
-    margin-left: -22px;
-  }
-
-  .mapsBody p {
-    margin-left: -22px;
-    text-align: justify;
-  }
-
-  #maps {
-    margin-top: 48px;
-  }
-
-  .mapsBody p {
-    text-align: left;
-  }
-  .coverMage img {
-    margin-top: -233px;
-    margin-left: 56px;
-    min-width: 74%;
-  }
-}
-
+/* 480 BREAKPOINT */
 @media screen and (max-width: 480px) {
   /* Carousel */
   /* .carousel img {
@@ -953,16 +818,16 @@ textarea {
 
   /* ARTICLE */
   #article img {
-    margin-top: -36px;
+    margin-top: -86px;
     margin-left: 18px;
     width: 85%;
   }
 
   .content h1 {
-    margin-top: 246px;
+    margin-top: 126px;
     margin-left: -313px;
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
   }
   .content p {
     float: justify;
@@ -973,14 +838,14 @@ textarea {
   .cardPray {
     margin-top: -48px;
     margin-left: -116px;
-    width: 136%;
+    width: 152%;
   }
 
   .cardBody {
     padding-top: 12px;
     margin-top: 19px;
-    margin-left: -86px;
-    /* width: 2s7%; */
+    margin-left: -106px;
+    /* width: 72%; */
     /* overflow: hidden; */
   }
 
@@ -1002,20 +867,20 @@ textarea {
       rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     /* background-color: #e0e0e0; */
     border-radius: 4px;
-    min-width: 145%;
+    min-width: 172%;
     margin-left: -113px;
   }
 
   .newsletter img {
     /* background-color: black; */
-    width: 133%;
-    height: 270px;
-    margin-top: -33px;
-    margin-left: -33px;
+    width: 144%;
+    height: 260px;
+    margin-top: -39px;
+    margin-left: -40px;
   }
 
   .newsletter h1 {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .newsletter p {
@@ -1036,7 +901,7 @@ textarea {
 
   /* Form Pengaduan / MAPS */
   .googleMaps {
-    width: 353%;
+    width: 281%;
     min-height: 140%;
     margin-left: -22px;
     margin-top: -25px;
