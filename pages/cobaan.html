@@ -4,137 +4,166 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Footer</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script
-      src="https://kit.fontawesome.com/66aa7c98b3.js"
+      src="https://kit.fontawesome.com/6acc3fbd7c.js"
       crossorigin="anonymous"
     ></script>
+    <title>Login Form</title>
+    <link
+      rel="icon"
+      href="https://www.freepnglogos.com/uploads/honda-logo-png/honda-motorcycles-logo-wing-10.png"
+    />
   </head>
   <body>
-    <div class="footer">
-      <div class="heading">
-        <h2>Desa Kedang Murung<sup>™</sup></h2>
+    <div class="container-login">
+      <div class="judul">
+        <h2>Login</h2>
       </div>
-      <div class="content">
-        <div class="services">
-          <h4>Services</h4>
-          <p><a href="#">App development</a></p>
-          <p><a href="#">Web development</a></p>
-          <p><a href="#">DevOps</a></p>
-          <p><a href="#">Web designing</a></p>
-        </div>
-        <div class="social-media">
-          <h4>Social</h4>
-          <p>
-            <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
-          </p>
-          <p>
-            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
-          </p>
-          <p>
-            <a href="https://github.com/farazc60"
-              ><i class="fab fa-github"></i> Github</a
-            >
-          </p>
-          <p>
-            <a href="https://www.facebook.com/codewithfaraz"
-              ><i class="fab fa-facebook"></i> Facebook</a
-            >
-          </p>
-          <p>
-            <a href="https://www.instagram.com/codewithfaraz"
-              ><i class="fab fa-instagram"></i> Instagram</a
-            >
-          </p>
-        </div>
+      <div class="form-login">
+        <form action="" method="POST" autocomplete="off">
+          <div class="ikons">
+            <i class="fa-solid fa-user icon"></i>
+            <input
+              class="input-field"
+              type="text"
+              name="username"
+              placeholder="Masukan Username Anda"
+              class="input"
+              required
+            />
+          </div>
+          <div class="ikons">
+            <i class="fa-solid fa-lock icon"></i>
+            <input
+              class="input-field"
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Masukan Password Anda"
+              class="input"
+              required
+            />
+            <span class="show-hide">
+              <i id="mata" class="fa fa-eye"></i>
+            </span>
+          </div>
+          <input
+            type="submit"
+            name="login"
+            value="Masuk  "
+            class="submit"
+          /><br /><br />
+        </form>
+        <p class="regis">
+          Belum punya akun? <i class="fa-solid fa-arrow-right"></i>
+          <a href="register.php">Daftar?</a>
+        </p>
       </div>
     </div>
+    <script src="js/slide.js"></script>
   </body>
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    .footer {
-      background-color: black;
-      color: #fefefe;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-      left: 0;
-    }
-
-    .footer .heading {
-      color: #fefefe;
-      max-width: 1010px;
-      width: 90%;
-      text-transform: uppercase;
-      margin: 0 auto;
-      margin-bottom: 3rem;
-      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-        sans-serif;
-    }
-
-    .footer .content {
-      display: flex;
-      justify-content: space-evenly;
-      margin: 1.5rem;
-    }
-
-    .footer .content p {
-      margin-bottom: 1.3rem;
-    }
-
-    .footer .content a {
-      text-decoration: none;
-      color: #fefefe;
-    }
-
-    .footer .content a:hover {
-      border-bottom: 1px solid #971717;
-    }
-
-    .footer .content h4 {
-      margin-bottom: 1.3rem;
-      font-size: 19px;
-    }
-
-    footer {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-
-    footer hr {
-      margin: 2rem 0;
-    }
-
-    @media (max-width: 767px) {
-      .footer .content {
-        display: flex;
-        flex-direction: column;
-        font-size: 14px;
-      }
-
-      .footer {
-        position: unset;
-      }
-    }
-
-    @media (min-width: 768px) and (max-width: 1024px) {
-      .footer .content,
-      .footer {
-        font-size: 14px;
-      }
-    }
-
-    @media (orientation: landscape) and (max-height: 500px) {
-      .footer {
-        position: unset;
-      }
-    }
-  </style>
 </html>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+  .ikons i {
+    background: #87898c;
+    position: absolute;
+  }
+
+  .ikons {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .icon {
+    padding: 12px;
+    margin-top: 7px;
+    color: white;
+    height: 23px;
+    /* min-width: -12px; */
+  }
+
+  .show-hide {
+    position: absolute;
+    right: 430px;
+    bottom: 366px;
+    font-size: 18px;
+  }
+  .show-hide i {
+    background-color: #ffffff;
+    cursor: pointer;
+    display: none;
+  }
+  .show-hide i.hide:before {
+    content: "\f070";
+  }
+
+  #password:valid ~ .show-hide i {
+    display: block;
+  }
+  .logo {
+    text-decoration: line-through;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  .container-login {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 13.5px 20px;
+    padding-left: 45px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+
+  .submit {
+    font-size: 18px;
+    background-color: #04aa6d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+  }
+  .regis {
+    margin-top: -21px;
+    float: right;
+  }
+  .regis a {
+    text-decoration: none;
+  }
+
+  @media (max-width: 430px) {
+    .container-login {
+      width: 300px;
+    }
+  }
+
+  @media (max-width: 638px) {
+    .show-hide {
+      position: absolute;
+      right: 60px;
+      bottom: 297px;
+      font-size: 18px;
+    }
+  }
+</style>

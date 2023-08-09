@@ -813,14 +813,14 @@ textarea {
   /* CARD SECTION */
   .cardPray {
     margin-top: -48px;
-    margin-left: -116px;
-    width: 134%;
+    margin-left: -119px;
+    width: 136%;
   }
 
   .cardBody {
     padding-top: 12px;
     margin-top: 19px;
-    margin-left: -68px;
+    margin-left: -67px;
     gap: 12px;
     /* grid-row-gap: 50px;
     grid-column-gap: 10px; */
@@ -881,7 +881,7 @@ textarea {
 
   /* Form Pengaduan / MAPS */
   .googleMaps {
-    width: 380%;
+    width: 345%;
     min-height: 140%;
     margin-left: -22px;
     margin-top: -63px;
