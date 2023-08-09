@@ -838,13 +838,13 @@ textarea {
   .cardPray {
     margin-top: -48px;
     margin-left: -116px;
-    width: 152%;
+    width: 143%;
   }
 
   .cardBody {
     padding-top: 12px;
     margin-top: 19px;
-    margin-left: -106px;
+    margin-left: -89px;
     /* width: 72%; */
     /* overflow: hidden; */
   }
@@ -867,13 +867,13 @@ textarea {
       rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     /* background-color: #e0e0e0; */
     border-radius: 4px;
-    min-width: 155%;
+    min-width: 145%;
     margin-left: -113px;
   }
 
   .newsletter img {
     /* background-color: black; */
-    width: 137%;
+    width: 141%;
     height: 260px;
     margin-top: -39px;
     margin-left: -40px;
