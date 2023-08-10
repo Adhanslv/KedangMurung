@@ -315,7 +315,7 @@ body {
 /* Article */
 #article {
   border-radius: 4px;
-  padding: 22px;
+  padding: 21px;
   margin-left: -2px;
   margin-top: 52px;
 }
@@ -496,8 +496,8 @@ p .koar {
 
 #maps {
   border-radius: 4px;
-  padding: 17px;
-  margin-left: 5px;
+  padding: 21px;
+  margin-left: -1px;
   margin-top: 72px;
 }
 
@@ -814,16 +814,13 @@ textarea {
   .cardPray {
     margin-top: -48px;
     margin-left: -119px;
-    width: 137%;
+    width: 140%;
   }
 
   .cardBody {
     padding-top: 12px;
     margin-top: 19px;
-    margin-left: -62px;
-    gap: 12px;
-    /* grid-row-gap: 50px;
-    grid-column-gap: 10px; */
+    margin-left: -70px;
   }
 
   .card {
@@ -844,7 +841,7 @@ textarea {
       rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     /* background-color: #e0e0e0; */
     border-radius: 4px;
-    min-width: 144%;
+    min-width: 149%;
     margin-left: -113px;
   }
 
