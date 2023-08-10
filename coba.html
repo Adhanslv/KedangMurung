@@ -22,25 +22,28 @@
       href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- <link rel="stylesheet" href="css/mobile.css" /> -->
   </head>
   <body onload="startTime()">
-    <nav class="navbar">
+    <nav class="navbar" id="topNav">
       <ul>
         <li>
-          <a href="#home" class="tengah"> Beranda</a>
+          <a href="#home" class="tengah"><i class="fa-solid fa-house"></i> </a>
         </li>
         <li><a href="#article" class="tengah"> Sejarah</a></li>
         <li><a href="#tagline" class="tengah">Berita</a></li>
         <li><a href="#maps" class="tengah">Map</a></li>
-        <li style="float: right"><a href="#footer">Kontak</a></li>
-        <li style="float: right"><a href="#about">Wisata</a></li>
+        <li><a href="#footer">Kontak</a></li>
+        <li><a href="#about">Wisata</a></li>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </ul>
     </nav>
     <div class="carousel">
       <div class="carousel_inner">
         <div class="carousel_item carousel_item__active">
-          <img src="./img/sarai.jpg" alt="" class="carousel_img" />
+          <img src="./img/gapura.jpg" alt="" class="carousel_img" />
           <div class="carousel_caption">
             <!-- <h1 class="carousel_title">WISATA TANJUNG SARAI</h1>
             <p class="carousel_description">
@@ -70,13 +73,9 @@
         <div class="carousel_item">
           <img src="./img/sarai.jpg" alt="" class="carousel_img" />
         </div>
-        <div class="carousel_item">
-          <img src="./img/sarai.jpg" alt="" class="carousel_img" />
-        </div>
       </div>
       <div class="carousel_indicator">
         <button class="carousel_dot carousel_dot__active"></button>
-        <button class="carousel_dot"></button>
         <button class="carousel_dot"></button>
         <button class="carousel_dot"></button>
       </div>
@@ -95,20 +94,28 @@
     <section id="article">
       <div class="content">
         <img src="img/logo.png" alt="" />
-        <h1><i class="fa-solid fa-seedling"></i> Serba Serbi Kedang Murung</h1>
+        <h1><i class="fa-solid fa-seedling"></i> Serba Serbi Desa</h1>
         <p>
           Sejak berdirinya Desa Kedang Murung ada 4 (empat) kepala Desa yang
-          mempimpin Desa, mulai <br />
-          dari nama H.Hairuddin dan sesuai regulasi terbaru di wilayah Kabupaten
-          Kedang Murung dengan sebutan Kepala Desa. <br />
+          mempimpin Desa, mulai dari nama H.Hairuddin dan sesuai regulasi
+          terbaru di wilayah Kabupaten Kedang Murung dengan sebutan Kepala Desa.
           Berikut nama-nama Kepala Desa Kedang Murung Kecamatan Kota Bangun
-          Kabupaten Kutai Kartanegara
+          Kabupaten Kutai Kartanegara. Sejak berdirinya Desa Kedang Murung ada 4
+          (empat) kepala Desa yang mempimpin Desa, mulai dari nama H.Hairuddin
+          dan sesuai regulasi terbaru di wilayah Kabupaten Kedang Murung dengan
+          sebutan Kepala Desa. Berikut nama-nama Kepala Desa Kedang Murung
+          Kecamatan Kota Bangun Kabupaten Kutai Kartanegara. Kabupaten Kutai
+          Kartanegara. Sejak berdirinya Desa Kedang Murung ada 4 (empat) kepala
+          Desa yang mempimpin Desa, mulai dari nama H.Hairuddin dan sesuai
+          regulasi terbaru di wilayah Kabupaten Kedang Murung dengan sebutan
+          Kepala Desa. Berikut nama-nama Kepala Desa Kedang Murung Kecamatan
+          Kota Bangun Kabupaten Kutai Kartanegara.
           <a href="pages/cobaan.html"
             ><span class="lanjutan">Selengkapnya...</span></a
           >
         </p>
       </div>
-      <table id="datas">
+      <!-- <table id="datas">
         <tr>
           <th colspan="3" class="tengah">
             <i class="fa-solid fa-file-csv"></i> DAFTAR KEPALA DESA
@@ -140,7 +147,7 @@
           <td>2022/2028</td>
         </tr>
       </table>
-      <canvas id="myChart" style="width: 100%; max-width: 600px"></canvas>
+      <canvas id="myChart" style="width: 100%; max-width: 600px"></canvas> -->
     </section>
     <!-- Serba Serbi -->
 
@@ -148,7 +155,7 @@
     <section class="card">
       <div class="cardPray">
         <p>
-          <i class="fa-solid fa-calendar-days"></i> Jadwal Sholat di Kab. Kutai
+          <i class="fa-solid fa-calendar-days"></i> Jadwal Sholat Kab. Kutai
           Kartanegara
         </p>
         <i class="fa-regular fa-clock"><p id="clock"></p></i>
@@ -224,8 +231,8 @@
         </a>
         <a href="pages/cobaan.html"><h1>Gebyar Muharram 1445 H</h1></a>
         <div class="info">
-          <p><i class="koar fa-regular fa-calendar-plus"></i> 12-12-2012</p>
-          <p class="kontolS"><i class="koar fa-solid fa-user"></i> Admin</p>
+          <p><i class="koar fa-regular fa-calendar-plus"></i> 20-07-2023</p>
+          <p class="kontolS"><i class="koar fa-solid fa-user"></i> admin</p>
         </div>
         <p>
           Momen mengharukan disaat KKN UNMUL dan UINSI bekerja sama dan di
@@ -234,6 +241,33 @@
           menandakan berakhirnya acara Gebyar Muharram 1445 H yang di tandai
           dengan penyerahan Trophy sekaligus piagam kepada setiap pemenang dari
           masing-masing RT.
+          <a href="pages/cobaan.html"
+            ><span class="lanjutan">Selengkapnya...</span></a
+          >
+        </p>
+        <!-- <a href="pages/cobaan.html"
+          ><button class="seeNews">
+            <i class="fa-regular fa-eye"></i> Lihat
+          </button>
+        </a> -->
+      </div>
+      <div class="newsletter">
+        <a target="_blank" href="img/cover1.jpg">
+          <img src="img/cover1.jpg" alt="dokumentasi" />
+        </a>
+        <a href="pages/cobaan.html"
+          ><h1>Penanaman Pohon di Danau Tanjung Sarai</h1></a
+        >
+        <div class="info">
+          <p><i class="koar fa-regular fa-calendar-plus"></i> 20-07-2023</p>
+          <p class="kontolS"><i class="koar fa-solid fa-user"></i> admin</p>
+        </div>
+        <p>
+          Pelaksanaan kegiatan penanaman pohon dipusatkan di Wisata Danau
+          Tanjung Sarai, Desa Kedang Murung, Kecamatan Kota Bangun, Kabupaten
+          Kutai Kartanegara. Kegiatan penanaman pohon dibuat oleh Mahasiswa KKN
+          Universitas Mulawarman bersama Pemerintah Desa yang diikitu oleh Camat
+          Kota Bangun. Penanaman pohon ini dilakukan untuk
           <a href="pages/cobaan.html"
             ><span class="lanjutan">Selengkapnya...</span></a
           >
@@ -261,13 +295,13 @@
           pemerintahan Kecamatan Kota Bangun. Letak Desa Kedang Murung yang
           berdekatan Dengan Pemerintah Kabupaten Kutai Kartanegara tepatnya ±
           100 Km arah timur Kabupaten Kutai Kartanegara. Desa Kedang Murungs
-          secara administrasi terbagi menjadi 3 (Tiga) Dusun yakni: Dusun
-          Matahari, Dusun Teratai, Dusun Seroja, dengan batas sebagai sebagai
-          berikut: Sebelah Utara berbatasan dengan Desa Kota Bangun Ulu, Desa
-          Loleng, Sebelah Timur berbatasan dengan Desa Sumber Sari, Suka Bumi,
-          Desa Sedulang, Sebelah Selatan Desa Kota Bangun 1, Desa Wonosari,
-          Kedang Ipil Sebelah Barat Desa Muara Wis, Sungai Mahakam Secara
-          keseluruhan luas desa Kedang Murung adalah ± 10.198.93 Ha
+          secara administrasi terbagi menjadi 3 Dusun yakni: Dusun Matahari,
+          Dusun Teratai, Dusun Seroja, dengan batas sebagai sebagai berikut:
+          Sebelah Utara berbatasan dengan Desa Kota Bangun Ulu, Desa Loleng,
+          Sebelah Timur berbatasan dengan Desa Sumber Sari, Suka Bumi, Desa
+          Sedulang, Sebelah Selatan Desa Kota Bangun 1, Desa Wonosari, Kedang
+          Ipil Sebelah Barat Desa Muara Wis, Sungai Mahakam Secara keseluruhan
+          luas desa Kedang Murung adalah ± 10.198.93 Ha
         </p>
       </div>
       <div class="coverMage">
@@ -283,6 +317,7 @@
     <section class="form">
       <div class="gmaps">
         <iframe
+          class="googleMaps"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127673.27672781439!2d116.51317745651028!3d-0.21626847682089523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df648132b6cca35%3A0x15909fb1ce72fc6f!2sKantor%20Kepala%20Desa%20Kedang%20Murung!5e0!3m2!1sid!2sid!4v1689781859241!5m2!1sid!2sid"
           width="600"
           height="450"
@@ -318,7 +353,6 @@
       <div class="wrap">
         <h1><i class="fa-solid fa-house-chimney"></i> Desa Kedang Murung</h1>
         <h1><i class="fa-regular fa-comments"></i> Hubungi Kami</h1>
-        x
       </div>
       <div class="konten">
         <h4>
@@ -379,6 +413,35 @@
       });
     </script>
     <!-- Contact Form -->
+    <!-- Navbar Responsive -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("topNav");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+    </script>
+
+    <!-- <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      var navbar = document.getElementById("topNav");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script> -->
     <!-- Link Java Script -->
   </body>
+  <style></style>
 </html>

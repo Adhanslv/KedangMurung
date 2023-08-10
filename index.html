@@ -26,15 +26,15 @@
   </head>
   <body onload="startTime()">
     <nav class="navbar" id="topNav">
-      <ul>
+      <ul class="heading">
         <li>
-          <a href="#home" class="tengah"> Beranda</a>
+          <a href="#home" class="tengah"><i class="fa-solid fa-house"></i> </a>
         </li>
-        <li><a href="#article" class="tengah"> Sejarah</a></li>
+        <!-- <li><a href="#article" class="tengah"> Sejarah</a></li> -->
         <li><a href="#tagline" class="tengah">Berita</a></li>
-        <li><a href="#maps" class="tengah">Map</a></li>
+        <li><a href="#maps" class="tengah">Maps</a></li>
         <li><a href="#footer">Kontak</a></li>
-        <li><a href="#about">Wisata</a></li>
+        <!-- <li><a href="#about">Wisata</a></li> -->
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
@@ -350,46 +350,40 @@
 
     <!-- Footer -->
     <section id="footer">
-      <div class="wrap">
-        <h1><i class="fa-solid fa-house-chimney"></i> Desa Kedang Murung</h1>
-        <h1><i class="fa-regular fa-comments"></i> Hubungi Kami</h1>
-      </div>
-      <div class="konten">
-        <h4>
-          Website Resmi Pemerintah Kelurahan Muara Jawa Tengah, Kecamatan Muara
-          Jawa, Kabupaten Kutai Kartanegara
-        </h4>
-        <h4>
-          Jl.Danau Kedang Murung Kabupaten Kutai Kartanegara, Provinsi
-          Kalimantan Timur, Indonesia, 75561 .
-        </h4>
-      </div>
-      <div class="konten">
-        <h4>
-          Website Resmi Pemerintah Kelurahan Muara Jawa Tengah, Kecamatan Muara
-          Jawa, Kabupaten Kutai Kartanegara
-        </h4>
-        <h4>
-          Jl.Danau Kedang Murung Kabupaten Kutai Kartanegara, Provinsi
-          Kalimantan Timur, Indonesia, 75561 .
-        </h4>
-      </div>
-      <div class="konten">
-        <div class="sosmed">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-youtube"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-      </div>
-      <div class="konten">
-        <div class="contact">
-          <a href=""
-            ><i class="fa-solid fa-phone"></i> Telepon/Fax: 082191960001</a
-          >
-          <a href="mailto:desakedangmurung@gmail.com">
-            <i class="fa-regular fa-envelope"></i> Email:
-            desakedangmurung@gmail.com</a
-          >
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <h4><i class="fa-solid fa-house"></i> Desa Kedang Murung</h4>
+            <ul>
+              <li>
+                Website Resmi Pemerintah Desa Kedang Murung, Kecamatan Kota
+                Bangun, Kabupaten Kutai Kartanegara
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4><i class="fa-solid fa-comments"></i> Hubungi Kami</h4>
+            <ul>
+              <li>
+                Jl.Danau Kedang Murung Kabupaten Kutai Kartanegara, Provinsi
+                Kalimantan Timur, Indonesia, 75561 .
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i> Telepon/Fax: 082191960001
+              </li>
+              <li>
+                <i class="fa-regular fa-envelope"></i> Email:
+                desakedangmurung@gmail.com
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <h4>Sosial Media</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -405,14 +399,20 @@
         "https://script.google.com/macros/s/AKfycbzV95Gx_qFl9JQBkshmghXIEtSTwcISdF5awv5GB4Nph-4dEPly2wTZfO3ztDVLijep/exec";
       const form = document.forms["KDM-contact"];
 
+      const bntKirim = document.querySelector(".sending");
+
       form.addEventListener("submit", (e) => {
         e.preventDefault();
         fetch(scriptURL, { method: "POST", body: new FormData(form) })
-          .then((response) => console.log("Success!", response))
+          .then((response) => {
+            console.log("Success!", response);
+            form.reset();
+          })
           .catch((error) => console.error("Error!", error.message));
       });
     </script>
     <!-- Contact Form -->
+
     <!-- Navbar Responsive -->
     <script>
       function myFunction() {
@@ -424,24 +424,6 @@
         }
       }
     </script>
-
-    <!-- <script>
-      window.onscroll = function () {
-        myFunction();
-      };
-
-      var navbar = document.getElementById("topNav");
-      var sticky = navbar.offsetTop;
-
-      function myFunction() {
-        if (window.pageYOffset >= sticky) {
-          navbar.classList.add("sticky");
-        } else {
-          navbar.classList.remove("sticky");
-        }
-      }
-    </script> -->
-    <!-- Link Java Script -->
   </body>
   <style></style>
 </html>
