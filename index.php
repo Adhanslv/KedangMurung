@@ -1,6 +1,8 @@
 <?php
 
 include "koneksi.php";
+$show = "SELECT * FROM news"
+
 
 ?>
 <!DOCTYPE html>
@@ -187,7 +189,7 @@ include "koneksi.php";
       <?php
       $query = $db->query($show);
       foreach ($query as $data ){
-      ?> 
+      ?>  
       <div class="newsletter">
         <img  src="img/<?php echo $data['gambar']?>" alt="dokumentasi" />
         <h1><a class="warna" href="pages/show.php?id_news=<?php echo $data ['id_news']?>">

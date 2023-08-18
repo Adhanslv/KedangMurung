@@ -9,5 +9,4 @@ if(!$db){
     die();
 }
 
-$show = "SELECT * FROM news"
 ?>

@@ -40,7 +40,7 @@
         <button  class="create" type="submit" name="cari"><i class="fas fa-search"></i> Cari Kata</button>
       </form>
     </div>
-    <a href="add_produk.php"><button class="tambah" ><i class="fa-solid fa-plus"></i> Tambah Data</button></a>
+    <a href="tambah.php"><button class="tambah" ><i class="fa-solid fa-plus"></i> Tambah Data</button></a>
     <p class="info">Data News</p>
     <table>
         <tr>
@@ -65,10 +65,10 @@
             <td><?php echo $data ['deskripsi']?></td>
             <td colspan='2'>
             
-            <a class="ubah"  href="ubah_produk.php?id_news=<?php echo $data ['id_news']?>" 
+            <a class="ubah"  href="ubah.php?id_news=<?php echo $data ['id_news']?>" 
                onclick="return confirm('Ingin Mengubah Data?');" role="button">
                <i class="fa-regular fa-pen-to-square fa-xl" style="color: #003185;"></i></a> 
-            <a class="hapus" href="hapus_produk.php?id_news=<?php echo $data ['id_news']?>" 
+            <a class="hapus" href="hapus.php?id_news=<?php echo $data ['id_news']?>" 
                onclick="return confirm('Ingin Mengapus Data?');" role="button">
                <i class="fa-regular fa-square-minus fa-xl" style="color: #ff0000;"></i></a>
             </td>
