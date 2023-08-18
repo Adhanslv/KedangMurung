@@ -38,10 +38,9 @@ include "koneksi.php";
         </li>
         <!-- <li><a href="#article" class="tengah"> Sejarah</a></li> -->
         <li><a href="#tagline" class="tengah">Berita</a></li>
-        <li><a href="#tagline" class="tengah">Demografi</a></li>
         <li><a href="#maps" class="tengah">Maps</a></li>
         <li><a href="#footer">Kontak</a></li>
-        <!-- <li><a href="#about">Wisata</a></li> -->
+        <li><a href="login.php"><i class="fa-solid fa-right-from-bracket"></i>&nbsp; Login Admin</a></li>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
@@ -113,13 +112,13 @@ include "koneksi.php";
           infrastruktur bisa dikatakan terpenuhi, meskipun ada beberapa kegiatan
           yang belum dilaksanakan itupun dikarenakan bukan menjadi kewenangan
           Desa akan tetapi menjadi bagian kewenangan pemerintah Kabupaten.
-          <a href="pages/cobaan.html"
-            ><span class="lanjutan">Selengkapnya...</span></a
-          >
         </p>
       </div>
     </section>
     <!-- Serba Serbi -->
+
+
+
 
     <!-- Card Page -->
     <section class="card">
@@ -163,6 +162,20 @@ include "koneksi.php";
     </section>
     <!-- Card Page -->
 
+    <!-- Perangkat Desa -->
+    <!-- <div class="cardSlider">
+      <div class="wrapper">
+          <img class="slider" src="img/cover1.jpg" alt="">
+          <img class="slider" src="img/cover1.jpg" alt="">
+          <img class="slider" src="img/cover1.jpg" alt="">
+          <img class="slider" src="img/cover1.jpg" alt="">
+          <img class="slider" src="img/cover1.jpg" alt="">
+          <img class="slider" src="img/cover1.jpg" alt="">
+          <img class="slider" src="img/cover1.jpg" alt="">
+      </div>
+    </div> -->
+    <!-- Card Slider -->
+
     <!-- NewsPapper -->
     <div id="tagline">
       <h1><i class="fa-solid fa-file-lines"></i> Berita Desa</h1>
@@ -177,7 +190,7 @@ include "koneksi.php";
       ?> 
       <div class="newsletter">
         <img  src="img/<?php echo $data['gambar']?>" alt="dokumentasi" />
-        <h1><a href="pages/show.php?id_news=<?php echo $data ['id_news']?>">
+        <h1><a class="warna" href="pages/show.php?id_news=<?php echo $data ['id_news']?>">
         <?php echo $data['title']?></h1></a>
         <div class="info">
           <p>
@@ -224,15 +237,14 @@ include "koneksi.php";
         </p>
       </div>
       <div class="coverMage">
-        <a target="_blank" href="img/petaKDM.jpg">
-          <img src="img/petaKDM.jpg" alt="" class="maps" />
+        <a target="_blank" href="img/peta.jpg">
+          <img src="img/peta.jpg" alt="" class="maps" />
         </a>
       </div>
     </div>
     <!-- Maping -->
 
     <!-- Form Chat -->
-
     <section class="form">
       <div class="gmaps">
         <iframe
@@ -284,7 +296,7 @@ include "koneksi.php";
             <h4><i class="fa-solid fa-comments"></i> Hubungi Kami</h4>
             <ul>
               <li>
-                Jl.Danau Kedang Murung Kabupaten Kutai Kartanegara, Provinsi
+                Jl.Rimba Ayu Desa Kedang Murung Kabupaten Kutai Kartanegara, Provinsi
                 Kalimantan Timur, Indonesia, 75561 .
               </li>
               <li>
@@ -315,12 +327,10 @@ include "koneksi.php";
         </div>
       </div>
     </section>
-
     <!-- Link Java Script -->
     <script src="js/script.js"></script>
-    <script src="js/accordion.js"></script>
     <script src="js/times.js"></script>
-    <script src="js/chart.js"></script>
+    <script src="js/slider.js"></script>
     <!-- Contact Form -->
     <script>
       const scriptURL =

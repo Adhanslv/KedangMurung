@@ -1,11 +1,3 @@
-/* 
-   Creator           : Coding's Time
-   Youtube Channel   : https://www.youtube.com/channel/UC6dnKqrImGWqMb9ty1n0Ziw
-   Github Profile    : https://github.com/codingstime
- */
-
-/* reset */
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
@@ -24,7 +16,7 @@ body {
 
 body {
   /* min-height: 2000vh; */
-  background-color: ;
+  background-color: #f8fafc;
 }
 * {
   margin: 0;
@@ -321,7 +313,7 @@ body {
 }
 
 #article img {
-  margin-top: -90px;
+  margin-top: -60px;
   float: left;
   width: 183px;
   border-radius: 10px;
@@ -337,7 +329,7 @@ body {
 
 .content h1 {
   font-family: "Poppins", sans-serif;
-  padding-left: 316px;
+  padding-left: 205px;
   margin-top: -20px;
   color: black;
 }
@@ -345,7 +337,7 @@ body {
 .content p {
   font-family: "Inter", sans-serif;
   text-align: justify;
-  padding-left: 316px;
+  padding-left: 214px;
   font-size: 15px;
 }
 
@@ -392,6 +384,45 @@ body {
   margin-top: -282px;
 }
 
+/* Card Slider */
+.cardSlider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  grid-gap: 1rem;
+  max-width: 1208px;
+  width: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
+
+.slider {
+  width: 124%;
+  min-width: calc(50% - 12.5rem);
+  aspect-ratio: 1 / 1;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2rem;
+  scrol-snap-align: start;
+}
+
+.slider p {
+  margin-top: 34px;
+}
+/* Ending */
 #news {
   font-family: "Poppins", sans-serif;
   border-radius: 4px;
@@ -418,7 +449,7 @@ p .koar {
 
 .newsletter .info .koar {
   color: #519259;
-  padding-top: 10px;
+  margin-top: 7px;
   font-size: 14px;
 }
 
@@ -427,7 +458,6 @@ p .koar {
   padding: 20px 50px;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  /* background-color: #e0e0e0; */
   border-radius: 4px;
   width: 29%;
 }
@@ -459,12 +489,11 @@ p .koar {
   text-decoration: none;
 }
 
-.newsletter h1:hover {
+.newsletter h1 :hover {
   color: #519259;
 }
 
 .newsletter h1 {
-  /* white-space: prevert; */
   cursor: pointer;
   font-size: 17px;
   padding-top: -12px;
@@ -487,7 +516,7 @@ p .koar {
   font-family: "Poppins", sans-serif;
   padding: 12px 34px;
   font-size: 12px;
-  padding-top: 100px;
+  margin-top: 111px;
   margin-left: 100px;
 }
 
@@ -499,7 +528,7 @@ p .koar {
 }
 
 .coverMage img {
-  margin-top: -330px;
+  margin-top: -359px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -511,7 +540,6 @@ p .koar {
   padding: 280px 50px;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  /* background-color: #e0e0e0; */
   border-radius: 4px;
 }
 
@@ -668,8 +696,6 @@ p .koar {
 }
 
 .form .gmaps {
-  /* margin-top: 90px; */
-  /* margin: 122px 66px; */
   margin-left: 45px;
   margin-top: 125px;
   display: block;
@@ -791,21 +817,21 @@ textarea {
 
   #article img {
     margin-top: -89px;
-    margin-left: 56px;
-    width: 60%;
+    margin-left: 43px;
+    width: 66%;
   }
 
   .content h1 {
-    margin-top: 162px;
-    margin-left: -313px;
+    margin-top: 153px;
+    margin-left: -222px;
     text-align: justify;
-    font-size: 16px;
+    font-size: 18px;
   }
   .content p {
     float: justify;
-    margin-left: -313px;
+    margin-left: -225px;
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 16px;
   }
   /* CARD SECTION */
   .cardPray {
@@ -850,20 +876,20 @@ textarea {
   }
 
   .newsletter h1 {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .newsletter p {
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    font-size: 13px;
+    font-size: 16px;
   }
 
   /* Maps */
   .mapsBody h1 {
-    font-size: 16px;
+    font-size: 18px;
     margin-left: -22px;
   }
 
@@ -871,7 +897,7 @@ textarea {
     min-width: 12px;
     text-align: left;
     margin-left: -22px;
-    font-size: 13px;
+    font-size: 16px;
   }
 
   /* Form Pengaduan / MAPS */
@@ -894,7 +920,7 @@ textarea {
 
   .coverMage img {
     margin-top: -253px;
-    margin-left: 12px;
+    margin-left: 10px;
     min-width: 94%;
   }
 }
